@@ -4,23 +4,23 @@ Use this repo to test adding an **Open in Coder** button to a GitHub README.
 
 ## Rendered button example
 
-[![Open in Coder](https://raw.githubusercontent.com/coder/coder/main/docs/images/templates/open-in-coder.svg)](https://coder.example.com/templates/dev-template/workspace)
+[![Open in Coder](https://raw.githubusercontent.com/coder/coder/main/docs/images/templates/open-in-coder.svg)](https://coder.services.calstate.ai/login)
 
 ## 1) Basic button Markdown
 
 ```md
-[![Open in Coder](https://coder.example.com/open-in-coder.svg)](https://coder.example.com/templates/dev-template/workspace)
+[![Open in Coder](https://raw.githubusercontent.com/coder/coder/main/docs/images/templates/open-in-coder.svg)](https://coder.services.calstate.ai/login)
 ```
 
 ## 2) Button with prefilled repo parameter Markdown
 
 ```md
-[![Open in Coder](https://coder.example.com/open-in-coder.svg)](https://coder.example.com/templates/dev-template/workspace?param.git_repo=https://github.com/your-org/coder-open-in-button-test)
+[![Open in Coder](https://raw.githubusercontent.com/coder/coder/main/docs/images/templates/open-in-coder.svg)](https://coder.services.calstate.ai/templates/dev-template/workspace?param.git_repo=https://github.com/your-org/coder-open-in-button-test)
 ```
 
 ## Replace these values
 
-- `https://coder.example.com` -> your Coder access URL
+- `https://coder.services.calstate.ai` -> your Coder access URL
 - `dev-template` -> your Coder template name
 - `your-org/coder-open-in-button-test` -> your actual GitHub repo path
 
